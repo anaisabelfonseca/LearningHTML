@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Cheat Sheet</title>
+  </head>
+  <body>
+    <a href="blog.html">Go to Posts</a>
+    <!--Headings-->
+    <h1>Heading One</h1>
+    <h2>Heading Two</h2>
+    <h3>Heading Three</h3>
+    <h4>Heading Four</h4>
+    <h5>Heading Five</h5>
+    <h6>Heading Six</h6>
+
+    <!--Paragraph-->
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+      <strong> totam.</strong> Deleniti aperiam rem
+      <em>quo aspernatur culpa autem ratione</em> id eaque perferendis
+      voluptatem voluptas iste repudiandae, impedit est fugiat et.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur
+      <a href="http://google.com" target="_blank">adipisicing elit</a>. Culpa
+      sed doloribus dolore ratione et numquam quibusdam commodi ex libero, unde
+      ducimus rerum quisquam nam, odit explicabo vel voluptas dicta id!
+    </p>
+
+    <!--Lists-->
+
+    <ul>
+      <li>List Item 1</li>
+      <li>List Item 2</li>
+      <li>List Item 3</li>
+      <li>List Item 4</li>
+    </ul>
+
+    <ol>
+      <li>List Item 1</li>
+      <li>List Item 2</li>
+      <li>List Item 3</li>
+      <li>List Item 4</li>
+    </ol>
+
+    <!--Table-->
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ana Fonseca</td>
+          <td>af@email.com</td>
+          <td>19</td>
+        </tr>
+        <tr>
+          <td>John Doe</td>
+          <td>jd@email.com</td>
+          <td>40</td>
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>js@email.com</td>
+          <td>22</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br />
+    <hr />
+    <br />
+
+    <!--Forms-> action: its going to submit the form to a given page, method: POST request (add data)-->
+    <form action="process.php" method="POST">
+      <div>
+        <label for="">First Name</label>
+        <input type="text" name="firstName" placeholder="Enter First Name" />
+      </div>
+      <br />
+      <div>
+        <label for="">Last Name</label>
+        <input type="text" name="lastName" placeholder="Enter Last Name" />
+      </div>
+      <br />
+      <div>
+        <label for="">Email</label>
+        <input type="email" name="email" />
+      </div>
+      <br />
+      <div>
+        <label for="">Message</label>
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
+      </div>
+      <br />
+      <div>
+        <label for="">Gender</label>
+        <select name="gender" id="">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="">Age</label>
+        <input type="number" name="age" value="30" />
+      </div>
+      <br />
+      <div>
+        <label for="">Birthday</label>
+        <input type="date" name="birthday" />
+      </div>
+      <br />
+
+      <input type="submit" name="submit" value="Submit" />
+    </form>
+
+    <!--Button-->
+    <button>Click Me</button>
+
+    <!--Image-->
+
+    <br />
+    <a href="img/sample.jpg">
+      <img src="img/sample.jpg" alt="Couldn't find image" width="200px" />
+    </a>
+
+    <!--Quotations-->
+    <blockquote cite="http://google.com">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+      unde inventore veritatis, neque perferendis libero ipsum illum ipsa. Sequi
+      quasi exercitationem similique tempore cum itaque id beatae consectetur
+      sapiente error?
+    </blockquote>
+
+    <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+
+    <p><cite>HTML crash course</cite> finished by Ana Isabel Fonseca</p>
+
+    <div style="margin-top: 500px"></div>
+  </body>
+</html>
